@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PlanScale — Privacy Policy</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #f8f6f1;
@@ -468,7 +467,7 @@
     <div class="app-badge">PlanScale · Privacy Policy</div>
     <h1>How we handle<br><em>your data</em></h1>
     <div class="meta-row">
-      <div class="meta-chip">Effective <strong>February 8, 2026</strong></div>
+      <div class="meta-chip">Effective <strong>September 8, 2026</strong></div>
       <div class="meta-divider"></div>
       <div class="meta-chip">Developer <strong>devarzs-organization</strong></div>
     </div>
@@ -521,17 +520,17 @@
           <li>Automatically fill address fields</li>
           <li>Enhance project organisation</li>
         </ul>
-        <p>Location data is stored locally and included in reports only when you choose to export or share them.</p>
+        <p>Project location data is stored locally and may be included in exported reports and backups. When you use current-location address lookup, coordinates may be processed by the device platform’s geocoding provider. If Google address autocomplete is configured, typed address queries are sent to Google Places. You can type an address manually and decline location access.</p>
       </div>
 
       <div class="subsection">
-        <h3>Account Information (Email)</h3>
-        <p>We collect your email address for authentication through Supabase (email OTP login). This is required to secure trial eligibility and subscription usage limits across reinstalls.</p>
+        <h3>Optional Profile Details</h3>
+        <p>PlanScale does not require an app account or email login. You may enter your name, company, email, phone number, and logo for report branding. These details are stored on your device and included in reports you choose to export.</p>
       </div>
 
       <div class="subsection">
         <h3>Subscription & Usage Data</h3>
-        <p>We store subscription state and usage limits in Supabase to prevent abuse and enforce limits.</p>
+        <p>PlanScale stores usage counts, trial dates, credit balances, and cached subscription state locally. RevenueCat and the app store verify purchases and subscription entitlements. Project backups do not transfer credit balances or purchase grants.</p>
         <div class="highlight-grid">
           <div class="highlight-card">
             <div class="label">Trial Dates</div>
@@ -569,7 +568,7 @@
     <div class="section-body">
       <ul>
         <li>Provide and maintain app functionality</li>
-        <li>Authenticate accounts and secure trial/limit enforcement</li>
+        <li>Maintain local usage limits and verify purchase entitlements</li>
         <li>Process in-app purchases and subscriptions</li>
         <li>Generate project reports and documentation</li>
         <li>Improve user experience</li>
@@ -587,9 +586,9 @@
     <div class="section-body">
       <ul>
         <li>Photos and project data are stored locally on your device</li>
-        <li>Account, subscription, and usage data are stored securely on Supabase</li>
+        <li>Usage and profile settings are stored locally; purchase records and app user identifiers are processed by RevenueCat and the app stores</li>
         <li>All network communication uses HTTPS/TLS encryption</li>
-        <li>We implement industry-standard security measures throughout</li>
+        <li>Exported reports and ZIP backups are not password-protected by PlanScale. Store and share them only with recipients and storage providers you trust</li>
       </ul>
     </div>
   </div>
@@ -603,14 +602,14 @@
     <div class="section-body">
 
       <div class="third-party-card">
-        <div class="tp-logo">SB</div>
+        <div class="tp-logo">EX</div>
         <div>
-          <div class="tp-name">Supabase</div>
-          <div class="tp-desc">Authentication and subscription/usage state storage.</div>
+          <div class="tp-name">Expo</div>
+          <div class="tp-desc">Delivers app updates. Update requests include connection and app/platform information needed to deliver compatible updates.</div>
           <div class="tp-tags">
-            <span class="tag">Email address</span>
+            <span class="tag">Update requests</span>
             <span class="tag">Device identifiers</span>
-            <span class="tag">Usage & subscription status</span>
+            <span class="tag">App version</span>
           </div>
         </div>
       </div>
@@ -619,7 +618,7 @@
         <div class="tp-logo">RC</div>
         <div>
           <div class="tp-name">RevenueCat</div>
-          <div class="tp-desc">Subscription and in-app purchase management.</div>
+          <div class="tp-desc">Subscription and in-app purchase management using purchase history, an app user identifier, and device/app information. Local billing diagnostics are retained on the device (up to 500 entries) and shared only when you export them for support.</div>
           <div class="tp-tags">
             <span class="tag">Purchase history</span>
             <span class="tag">Device identifiers</span>
@@ -646,7 +645,7 @@
       <h2>Data Sharing</h2>
     </div>
     <div class="section-body">
-      <p>We do <strong>not</strong> sell personal information. Data is shared only with the service providers listed above — Supabase, RevenueCat, and Apple/Google app stores — for the purposes described.</p>
+      <p>We do <strong>not</strong> sell personal information. RevenueCat, Expo, Apple/Google app stores, and address lookup providers process information for the purposes described here. Exports and backups are sent to the recipient or storage service you select. When you email support, your email provider and our support inbox receive your message and attachments. In the web version, optional on-device detection downloads model/software files from Google Cloud Storage and jsDelivr; those providers receive ordinary network request information, not project images for remote analysis.</p>
     </div>
   </div>
 
@@ -664,15 +663,15 @@
         </div>
         <div class="right-item">
           <div class="right-icon">🗑</div>
-          <div class="right-text">Delete local data via "Reset All Data"</div>
+          <div class="right-text">Delete local project data via Settings → Delete All My Data</div>
         </div>
         <div class="right-item">
           <div class="right-icon">📤</div>
-          <div class="right-text">Export your data via reports</div>
+          <div class="right-text">Export reports or save and restore project ZIP backups</div>
         </div>
         <div class="right-item">
           <div class="right-icon">✉️</div>
-          <div class="right-text">Request account deletion by contacting us</div>
+          <div class="right-text">Contact support about purchase-related data</div>
         </div>
         <div class="right-item">
           <div class="right-icon">📍</div>
@@ -700,7 +699,7 @@
       <h2>Data Retention</h2>
     </div>
     <div class="section-body">
-      <p>Local project data remains until deleted or the app is uninstalled. Subscription and usage data is retained while your account is active or as required for compliance. Purchase history is retained by RevenueCat per their own retention policies.</p>
+      <p>Local project data remains until you delete it or remove the app’s local storage. Copies in device backups, exported reports, and ZIP backups remain with their storage provider until you delete them there. Delete All My Data removes project content and profile settings but preserves purchase/credit records and local purchase diagnostics. Deleting local data does not cancel store subscriptions. Use Manage subscription in Settings to cancel renewal. Contact arz.devapp@gmail.com for assistance with purchase-related records held by our service providers. RevenueCat and the app stores retain purchase records according to their policies and applicable obligations.</p>
     </div>
   </div>
 
@@ -758,15 +757,15 @@
       <div class="permission-row">
         <div class="perm-icon">🖼</div>
         <div>
-          <div class="perm-label">Storage / Media Library</div>
-          <div class="perm-desc">Save and import photos from your device</div>
+          <div class="perm-label">Selected Photos and Files</div>
+          <div class="perm-desc">Import items you select using the system picker and export to destinations you choose; Android broad media-library access is not requested</div>
         </div>
       </div>
       <div class="permission-row">
-        <div class="perm-icon">🎙</div>
+        <div class="perm-icon">📐</div>
         <div>
-          <div class="perm-label">Microphone</div>
-          <div class="perm-desc">Used for video capture or voice annotations (if applicable)</div>
+          <div class="perm-label">Motion Sensors</div>
+          <div class="perm-desc">Estimate distances using device orientation. PlanScale does not request microphone access.</div>
         </div>
       </div>
     </div>
@@ -775,7 +774,7 @@
 </main>
 
 <footer>
-  <strong>PlanScale</strong> · devarzs-organization · Effective February 8, 2026
+  <strong>PlanScale</strong> · devarzs-organization · Effective September 8, 2026
 </footer>
 
 </body>
